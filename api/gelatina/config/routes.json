@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gelatinas",
+      "handler": "gelatina.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gelatinas/count",
+      "handler": "gelatina.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gelatinas/:id",
+      "handler": "gelatina.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gelatinas",
+      "handler": "gelatina.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gelatinas/:id",
+      "handler": "gelatina.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gelatinas/:id",
+      "handler": "gelatina.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

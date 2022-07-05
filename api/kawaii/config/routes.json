@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kawaiis",
+      "handler": "kawaii.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kawaiis/count",
+      "handler": "kawaii.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kawaiis/:id",
+      "handler": "kawaii.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kawaiis",
+      "handler": "kawaii.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kawaiis/:id",
+      "handler": "kawaii.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kawaiis/:id",
+      "handler": "kawaii.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

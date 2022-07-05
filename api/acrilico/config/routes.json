@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/acrilicos",
+      "handler": "acrilico.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/acrilicos/count",
+      "handler": "acrilico.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/acrilicos/:id",
+      "handler": "acrilico.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/acrilicos",
+      "handler": "acrilico.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/acrilicos/:id",
+      "handler": "acrilico.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/acrilicos/:id",
+      "handler": "acrilico.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

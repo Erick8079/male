@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alzadas",
+      "handler": "alzada.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alzadas/count",
+      "handler": "alzada.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alzadas/:id",
+      "handler": "alzada.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alzadas",
+      "handler": "alzada.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alzadas/:id",
+      "handler": "alzada.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alzadas/:id",
+      "handler": "alzada.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

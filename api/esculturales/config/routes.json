@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/esculturales",
+      "handler": "esculturales.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/esculturales/count",
+      "handler": "esculturales.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/esculturales/:id",
+      "handler": "esculturales.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/esculturales",
+      "handler": "esculturales.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/esculturales/:id",
+      "handler": "esculturales.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/esculturales/:id",
+      "handler": "esculturales.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gelishes",
+      "handler": "gelish.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gelishes/count",
+      "handler": "gelish.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gelishes/:id",
+      "handler": "gelish.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gelishes",
+      "handler": "gelish.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gelishes/:id",
+      "handler": "gelish.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gelishes/:id",
+      "handler": "gelish.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

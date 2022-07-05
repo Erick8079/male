@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/encapsulados",
+      "handler": "encapsulado.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/encapsulados/count",
+      "handler": "encapsulado.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/encapsulados/:id",
+      "handler": "encapsulado.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/encapsulados",
+      "handler": "encapsulado.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/encapsulados/:id",
+      "handler": "encapsulado.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/encapsulados/:id",
+      "handler": "encapsulado.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
