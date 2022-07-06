@@ -32,6 +32,10 @@
     },
     "resumen": {
       "type": "string"
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "titulo"
     }
   }
 }
